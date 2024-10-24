@@ -1,0 +1,43 @@
+/* Estilos para a Navbar */
+.navbar {
+    background-color: #2d7cc5; /* Cor de fundo escura */
+    padding: 1rem 1.5rem;
+   
+}
+
+.navbar-brand {
+    color: #f8f9fa;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    color: #f8f9fa;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: #363636;
+}
+
+.nav-link.active {
+    color: #17a2b8;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+
+.navbar-nav {
+    flex-direction: row; 
+}
